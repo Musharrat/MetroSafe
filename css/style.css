@@ -112,6 +112,8 @@ nav ul li a{
 
 /* ***************** BODY ****************** */
 
+/* ***************** Homepage ****************** */
+
 .container{
     background-color: beige;
     max-width: 1600px;
@@ -213,7 +215,20 @@ nav ul li a{
     padding-right: 100px;
 }
 
-.banner5 img{
+.Michelle{
     float: right;
     width: 40%;
+}
+
+
+/* ***************** Footer ****************** */
+
+footer{
+    background-color: #9d9b9b;
+    padding: 50px;
+}
+
+footer p{
+    font-size: 60px;
+    color: #ffffff;
 }

@@ -5,7 +5,8 @@
 }
 
 
-@media only screen and (max-width: 950px){
+@media only screen and (max-width: 960px){
+    /* ***************** mobile-menu ****************** */
     .topnav{
         display: block;
     }
@@ -34,5 +35,97 @@
     
     .dropbtn img{
         margin-top: 20px;
+    }
+    /* ***************** mobile-menu ****************** */
+    
+    
+    
+    
+    .home-banner p{
+        font-size: 40px;
+    }
+}
+
+
+@media only screen and (max-width: 800px){
+    
+    .container{
+        padding: 0;
+    }
+    
+    .hero{
+        height: 500px;
+    }
+    
+    .home-banner{
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .logo{
+        width: 15%;
+    }
+    
+    .hero{
+        height: 350px;
+        padding-top: 50px;
+    }
+    
+    .home-banner{
+        height: 300px;
+    }
+    
+    .hero h1{
+        font-size: 70px;
+    }
+    
+    .hero p{
+        font-size: 45px;
+    }
+    
+    .home-banner h2{
+        font-size: 60px;
+    }
+    
+    .banner1 h2{
+        margin-top: 50px;
+    }
+    
+    .home-banner{
+        padding-top: 50px;
+    }
+    
+    .banner5 p{
+        padding: 0;
+    }
+    
+    
+    footer p{
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 660px){
+    .banner5{
+        padding: 30px;
+    }
+    
+    .banner5 p{
+        float: none;
+        width: 100%;
+    }
+    
+    .Michelle{
+        float: none;
+        width: 25%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .banner5 p{
+        font-size: 30px;
     }
 }
