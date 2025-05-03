@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1,0">
+        <meta http-equiv="X-UV-Compatible" content="IE-edge">
+        <title>Homepage</title>
+        
+        <!-- RESOURCES FILES-->
+        
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <script src="resources/js/script.js"></script>
+        
+        <!-- GOOGLE FONTS -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Alegreya+Sans+SC&family=Alegreya+Sans:wght@300;400&display=swap" rel="stylesheet">
+    </head>
+    
+    <body>
+        <header class="top-head">
+            <div class="row">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.png"></a>
+                </div>
+                
+                <div class="top-nav-desktop">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Station Condition</a></li>
+                            <li><a href="#">News & Media</a></li>
+                            <li><a href="#">Crime Tracker</a></li>
+                            <li><a href="#">Subway Rats</a></li>
+                            <li><a href="#">Ratings & Reviews</a></li>
+                            <div class="clear-element"></div>
+                        </ul>
+                    </nav>
+                    
+                </div>
+                <div class="topnav">
+                    <div id="myBtn" class="dropbtn">
+                        <img src="img/main-menu.png">
+                    </div>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="menu.html">Station Condition</a>
+                        <a href="about.html">News & Media</a>
+                        <a href="gallery.html">Crime Tracker</a>
+                        <a href="contact.html">Subway Rats</a>
+                        <a href="contact.html">Ratings & Reviews</a>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="clear-element"></div>
+            
+            
+            <script>
+                // Get the button, and when the user clicks on it, execute myFunction
+                document.getElementById("myBtn").onclick = function() {myFunction()};
+
+                /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+                function myFunction() {
+                document.getElementById("myDropdown").classList.toggle("show");
+                }
+            </script>
+        </header>
+        
+        <div class="container">
+            <div class="hero">
+                <h1>MetroSafe</h1>
+                <p>Know Before You Go</p>
+            </div>
+            
+            <div class="home-banner banner1">
+                <div class="image-cover">
+                    <h2>9:30 PM</h2>
+                    <p>Michelle Go arrives at Times Square Station</p>
+                </div>
+            </div>
+            
+            <div class="home-banner banner2">
+                <h2>9:33 PM</h2>
+                <p>Michelle is waitng on the platform behind the yellow line</p>
+            </div>
+            
+            <div class="home-banner banner3">
+                <h2>9:34 PM</h2>
+                <p>Michelle is pushed into the tracks by a stranger</p>
+            </div>
+            
+            <div class="home-banner banner4">
+                <h2>9:34 PM</h2>
+                <p>Michelle passes away</p>
+            </div>
+            
+            <div class="home-banner banner5">
+                <p>Michelle's life changed and ended in just five minutes</p>
+                <img src="img/Michelle.webp">
+                <div class="clear-element"></div>
+            </div>
+            
+            <footer>
+                <p>
+                    
+                </p>
+            </footer>
+            
+        </div>
+    </body>
+</html>
