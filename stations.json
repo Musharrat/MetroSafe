@@ -1,0 +1,142 @@
+[
+  {
+    "station": "Times Sq-42 St",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "Grand Central-42 St",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "125 St",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Fulton St",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "34 St-Herald Sq",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "14 St",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "Union Sq-14 St",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Canal St",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Jay St-MetroTech",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Broadway Junction",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "59 St-Columbus Circle",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "7 Av",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Lexington Av/59 St",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Flushing-Main St",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Forest Hills-71 Av",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "Coney Island-Stillwell Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Jackson Hts-Roosevelt Av",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Atlantic Av-Barclays Ctr",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Wall St",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Court Sq",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  }
+]

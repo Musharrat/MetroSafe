@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.clear-element{
+    clear: both;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+ul li{
+    list-style-type: none;
+}
+
+nav ul li a.active{
+    font-weight: 800;
+}
+
+
+
+/* ***************** HEADER ****************** */
+
+html{
+    scroll-behavior: smooth;
+}
+
+.topnav{
+    display: none;
+}
+
+header{
+    background-color: #080a07;
+    width: 100%;
+}
+
+.row{
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.logo{
+    float: left;
+    width: 9%;
+}
+.top-nav-desktop{
+    float: right;
+    padding-top: 30px;
+}
+
+.top-nav-desktop nav{
+    float: left;
+}
+
+
+
+
+nav ul li{
+    float: left;
+    margin-left: 35px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 22px;
+}
+
+
+
+
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #080a07;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+/* ***************** BODY ****************** */
+
+/* ***************** Homepage ****************** */
+
+.container{
+    background-color: beige;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+
+.hero{
+    background-image: url(../img/hero-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    height: 700px;
+    padding-top: 15%;
+    padding-left: 50px;
+}
+
+.hero h1{
+    font-size: 100px;
+    color: #ffffff;
+}
+
+.hero p{
+    font-size: 70px;
+    color: #ffffff;
+}
+
+.home-banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: left;
+    height: 600px;
+    padding-top: 15%;
+    margin: 15px 0;
+    padding-left: 50px;
+}
+
+.banner1{
+    background-image: url(../img/banner1.jpg);
+    position: relative;
+}
+
+.image-cover{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0; 
+}
+
+.banner1 h2{
+    margin-top: 15%;
+    margin-left: 50px;
+}
+
+.banner1 p{
+    margin-left: 50px;
+}
+
+.banner2{
+    background-image: url(../img/banner2.jpg);
+}
+
+.banner3{
+    background-image: url(../img/banner3.jpg);
+}
+
+.banner4{
+    background-image: url(../img/banner4.jpg);
+}
+
+.banner5{
+    background-color: #333333;
+    height: auto;
+    padding: 30px 50px;
+}
+
+.home-banner h2{
+    font-size: 90px;
+    color: #ffffff;
+}
+
+.home-banner p{
+    font-size: 60px;
+    color: #ffffff;
+}
+
+.banner5 p{
+    float: left;
+    width: 60%;
+    padding: 70px;
+    padding-right: 100px;
+}
+
+.Michelle{
+    float: right;
+    width: 40%;
+}
+
+
+/* ***************** Footer ****************** */
+
+footer{
+    background-color: #9d9b9b;
+    padding: 50px;
+}
+
+footer p{
+    font-size: 60px;
+    color: #ffffff;
+}
+
+
+
+/* Station Condition */
+.conditions {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+  }
+  
+  .conditions h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+  }
+  
+  .subheading {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  #stationSearch {
+    width: 90%;
+    max-width: 400px;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  .station-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .station-card {
+    background: #f5f5f5;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+  }
+  
+  .station-card h3 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .station-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .station-card li {
+    margin: 6px 0;
+    color: #333;
+  }
+  

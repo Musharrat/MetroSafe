@@ -7,7 +7,6 @@
         <title>Homepage</title>
         
         <!-- RESOURCES FILES-->
-        
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
         <script src="resources/js/script.js"></script>
@@ -15,7 +14,8 @@
         <!-- GOOGLE FONTS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Alegreya+Sans+SC&family=Alegreya+Sans:wght@300;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Alegreya+Sans+SC&family=Alegreya+Sans:wght@300;400&display=swap" rel="stylesheet">
     </head>
     
     <body>
@@ -29,7 +29,7 @@
                 <div class="top-nav-desktop">
                     <nav>
                         <ul>
-                            <li><a href="#">Station Condition</a></li>
+                            <li><a href="station.html">Station Condition</a></li>
                             <li><a href="#">News & Media</a></li>
                             <li><a href="#">Crime Tracker</a></li>
                             <li><a href="#">Subway Rats</a></li>
@@ -37,36 +37,29 @@
                             <div class="clear-element"></div>
                         </ul>
                     </nav>
-                    
                 </div>
                 <div class="topnav">
                     <div id="myBtn" class="dropbtn">
                         <img src="img/main-menu.png">
                     </div>
                     <div class="dropdown-content" id="myDropdown">
-                        <a href="menu.html">Station Condition</a>
-                        <a href="about.html">News & Media</a>
-                        <a href="gallery.html">Crime Tracker</a>
-                        <a href="contact.html">Subway Rats</a>
-                        <a href="contact.html">Ratings & Reviews</a>
+                        <a href="station.html">Station Condition</a>
+                        <a href="#">News & Media</a>
+                        <a href="#">Crime Tracker</a>
+                        <a href="#">Subway Rats</a>
+                        <a href="#">Ratings & Reviews</a>
                     </div>
-                    
                 </div>
             </div>
             <div class="clear-element"></div>
-            
-            
-            <script>
-                // Get the button, and when the user clicks on it, execute myFunction
-                document.getElementById("myBtn").onclick = function() {myFunction()};
 
-                /* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
-                function myFunction() {
-                document.getElementById("myDropdown").classList.toggle("show");
+            <script>
+                document.getElementById("myBtn").onclick = function() {
+                    document.getElementById("myDropdown").classList.toggle("show");
                 }
             </script>
         </header>
-        
+
         <div class="container">
             <div class="hero">
                 <h1>MetroSafe</h1>
@@ -107,7 +100,6 @@
                 <p>Before you step foot into a NYC subway station, make sure you know what you're walking into.</p>
                 <p>This is why we created MetroSafe — to give everyone the knowledge they need to stay safe and aware.</p>
             </footer>
-            
         </div>
     </body>
 </html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Station Conditions</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="top-head">
+      <div class="row">
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/logo.png" alt="MetroSafe Logo" />
+          </a>
+        </div>
+        <div class="top-nav-desktop">
+          <nav>
+            <ul>
+              <li><a href="station.html" class="active">Station Condition</a></li>
+              <li><a href="#">News & Media</a></li>
+              <li><a href="#">Crime Tracker</a></li>
+              <li><a href="#">Subway Rats</a></li>
+              <li><a href="#">Ratings & Reviews</a></li>
+              <div class="clear-element"></div>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div class="clear-element"></div>
+    </header>
+
+    <main>
+      <section id="conditions" class="conditions">
+        <h2>Station Conditions</h2>
+        <p class="subheading">
+          Search for station cleanliness, elevator status, lighting and maintenance issues.
+        </p>
+        <input type="text" id="stationSearch" placeholder="Search for a station..." />
+        <div id="stationCards" class="station-cards">
+          <!-- Cards will be rendered by JS -->
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
