@@ -1,105 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1,0">
-        <meta http-equiv="X-UV-Compatible" content="IE-edge">
-        <title>Homepage</title>
-        
-        <!-- RESOURCES FILES-->
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/responsive.css">
-        <script src="resources/js/script.js"></script>
-        
-        <!-- GOOGLE FONTS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Alegreya+SC&family=Alegreya+Sans+SC&family=Alegreya+Sans:wght@300;400&display=swap" rel="stylesheet">
-    </head>
-    
-    <body>
-        <header class="top-head">
-            <div class="row">
-                <div class="logo">
-                    <a href="index.html">
-                        <img src="img/logo.png"></a>
-                </div>
-                
-                <div class="top-nav-desktop">
-                    <nav>
-                        <ul>
-                            <li><a href="station.html">Station Condition</a></li>
-                            <li><a href="#">News & Media</a></li>
-                            <li><a href="#">Crime Tracker</a></li>
-                            <li><a href="#">Subway Rats</a></li>
-                            <li><a href="#">Ratings & Reviews</a></li>
-                            <div class="clear-element"></div>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="topnav">
-                    <div id="myBtn" class="dropbtn">
-                        <img src="img/main-menu.png">
-                    </div>
-                    <div class="dropdown-content" id="myDropdown">
-                        <a href="station.html">Station Condition</a>
-                        <a href="#">News & Media</a>
-                        <a href="#">Crime Tracker</a>
-                        <a href="#">Subway Rats</a>
-                        <a href="#">Ratings & Reviews</a>
-                    </div>
-                </div>
-            </div>
-            <div class="clear-element"></div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MetroSafe – Know Before You Go</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="dark-theme">
 
-            <script>
-                document.getElementById("myBtn").onclick = function() {
-                    document.getElementById("myDropdown").classList.toggle("show");
-                }
-            </script>
-        </header>
+  <!-- navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="MetroSafe Logo" />
+      </a>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="station.html">Station Condition</a></li>
+          <li><a href="#">News & Media</a></li>
+          <li><a href="#">Crime Tracker</a></li>
+          <li><a href="#">Ratings & Reviews</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
 
-        <div class="container">
-            <div class="hero">
-                <h1>MetroSafe</h1>
-                <p>Know Before You Go</p>
-            </div>
-            
-            <div class="home-banner banner1">
-                <div class="image-cover">
-                    <h2>9:30 PM</h2>
-                    <p>Michelle Go arrives at Times Square Station</p>
-                </div>
-            </div>
-            
-            <div class="home-banner banner2">
-                <h2>9:33 PM</h2>
-                <p>Michelle is waitng on the platform behind the yellow line</p>
-            </div>
-            
-            <div class="home-banner banner3">
-                <h2>9:34 PM</h2>
-                <p>Michelle is pushed into the tracks by a stranger</p>
-            </div>
-            
-            <div class="home-banner banner4">
-                <h2>9:34 PM</h2>
-                <p>Michelle passes away</p>
-            </div>
-            
-            <div class="home-banner banner5">
-                <p>Michelle's life changed and ended in just five minutes</p>
-                <div class="Michelle">
-                    <img src="img/Michelle.webp">
-                </div>
-                <div class="clear-element"></div>
-            </div>
-            
-            <footer>
-                <p>Before you step foot into a NYC subway station, make sure you know what you're walking into.</p>
-                <p>This is why we created MetroSafe — to give everyone the knowledge they need to stay safe and aware.</p>
-            </footer>
-        </div>
-    </body>
+  <!-- hero section but now includes a vidoe of a train passing by  -->
+  <section class="hero" id="hero">
+    <video autoplay muted loop playsinline id="heroVideo">
+      <source src="train.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content container">
+      <h1>Know Before You Go</h1>
+      <p>Stay informed about NYC subway station safety.</p>
+      <a href="#story" class="btn">Read Michelle’s Story</a>
+    </div>
+  </section>
+
+  <!-- story section about michelle -->
+  <section class="story-section container" id="story">
+    <div class="story-item" style="background-image:url('img/banner1.jpg')">
+      <div class="story-overlay"></div>
+      <div class="story-content">
+        <h2>9:30 PM</h2>
+        <p>Michelle Go arrives at Times Square Station.</p>
+      </div>
+    </div>
+
+    <div class="story-item" style="background-image:url('img/banner2.jpg')">
+      <div class="story-overlay"></div>
+      <div class="story-content">
+        <h2>9:33 PM</h2>
+        <p>Michelle waits on the platform behind the yellow line.</p>
+      </div>
+    </div>
+
+    <div class="story-item" style="background-image:url('img/banner3.jpg')">
+      <div class="story-overlay"></div>
+      <div class="story-content">
+        <h2>9:34 PM</h2>
+        <p>Michelle is pushed onto the tracks by a stranger.</p>
+      </div>
+    </div>
+
+    <div class="story-item" style="background-image:url('img/banner4.jpg')">
+      <div class="story-overlay"></div>
+      <div class="story-content">
+        <h2>9:34 PM</h2>
+        <p>Tragically, Michelle passes away.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="final-message">
+    <div class="reveal-line">
+      <h2>Before you step</h2>
+    </div>
+    <div class="reveal-line">
+      <h2>foot into an NYC</h2>
+    </div>
+    <div class="reveal-line">
+      <h2>subway station,</h2>
+    </div>
+    <div class="reveal-line">
+      <h2>make sure you know</h2>
+    </div>
+    <div class="reveal-line">
+      <h2>what you're walking into.</h2>
+    </div>
+    <div class="reveal-line">
+      <h2>This is why we created <span class="brand">MetroSafe</span></h2>
+    </div>
+    <div class="reveal-line">
+      <h2>To give everyone the knowledge they need</h2>
+    </div>
+    <div class="reveal-line">
+      <h2>to stay safe and aware.</h2>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="img/logo.png" alt="MetroSafe Logo" />
+        <p>MetroSafe — Know Before You Go</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="station.html">Station Condition</a>
+        <a href="#">News & Media</a>
+        <a href="#">Crime Tracker</a>
+        <a href="#">Ratings & Reviews</a>
+      </div>
+      <div class="footer-credits">
+        <p>&copy; 2025 MetroSafe. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>  
+
+  <script src="script.js" defer></script>
+</body>
 </html>
