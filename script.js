@@ -96,3 +96,80 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error("Failed to load stations.json:", error);
     });
 });
+
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const videos = [
+        {
+            url: "https://www.youtube.com/embed/gQc0yYHR988",
+            title: "Subway Rats",
+            description: "An up-close look at subway rats navigating the MTA system."
+        },
+        {
+            url: "https://www.youtube.com/embed/1_5MNeXUKf4",
+            title: "Rat Returns",
+            description: "Rats scamper out from under homeless man’s blanket on NYC subway platform, horrifying video shows"
+        },
+        {
+            url: "https://www.youtube.com/embed/u5k5SNy_M1k",
+            title: "Flood Rat",
+            description: "Video Of Rat Hiding From NYC Subway Flooding Goes Viral."
+        }
+    ];
+
+    const container = document.getElementById("videoContainer");
+
+    videos.forEach(video => {
+        const wrapper = document.createElement("div");
+        wrapper.className = "right-sidebar-content";
+
+        wrapper.innerHTML = `
+            <div class="rat-videos">
+                <iframe width="100%" height="315"
+                    src="${video.url}"
+                    title="${video.title}" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="rat-video-detail">
+                <h5>${video.title}</h5>
+                <p>${video.description}</p>
+            </div>
+            <div class="clear-element"></div>
+        `;
+
+        container.appendChild(wrapper);
+    });
+});
+
+
+document.getElementById("videoUpload").addEventListener("change", function (event) {
+    const file = event.target.files[0];
+
+    if (file && file.type.startsWith("video/")) {
+        const videoURL = URL.createObjectURL(file);
+
+        const wrapper = document.createElement("div");
+        wrapper.className = "right-sidebar-content";
+
+        wrapper.innerHTML = `
+            <div class="rat-videos">
+                <video width="100%" height="315" controls>
+                    <source src="${videoURL}" type="${file.type}">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            <div class="rat-video-detail">
+                <h5>Your Uploaded Video</h5>
+                <p>This video was added by a visitor.</p>
+            </div>
+            <div class="clear-element"></div>
+        `;
+
+        document.getElementById("videoContainer").prepend(wrapper);
+    } else {
+        alert("Please upload a valid video file.");
+    }
+});
+
