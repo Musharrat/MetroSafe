@@ -1,142 +1,2529 @@
 [
   {
-    "station": "Times Sq-42 St",
+    "station": "242 St-Van Cortlandt Park",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "238 St",
     "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "231 St",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "225 St-Marble Hill",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "215 St",
+    "cleanliness": "Fair",
     "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "207 St",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
     "lighting": "Good",
     "maintenance": "None"
   },
   {
-    "station": "Grand Central-42 St",
+    "station": "Dyckman St",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "191 St",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "181 St",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "168 St-Washington Hts",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "157 St",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "145 St",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "137 St-City College",
     "cleanliness": "Fair",
     "elevator": "Broken",
-    "lighting": "Bright",
+    "lighting": "Good",
     "maintenance": "Reported"
   },
   {
     "station": "125 St",
     "cleanliness": "Clean",
-    "elevator": "Out of Service",
-    "lighting": "Good",
+    "elevator": "Broken",
+    "lighting": "Dim",
     "maintenance": "Scheduled"
   },
   {
-    "station": "Fulton St",
+    "station": "116 St-Columbia Univ.",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Cathedral Parkway ",
     "cleanliness": "Dirty",
     "elevator": "Operational",
     "lighting": "Dim",
-    "maintenance": "In Progress"
-  },
-  {
-    "station": "34 St-Herald Sq",
-    "cleanliness": "Fair",
-    "elevator": "Operational",
-    "lighting": "Bright",
     "maintenance": "None"
   },
   {
-    "station": "14 St",
+    "station": "103 St",
     "cleanliness": "Clean",
-    "elevator": "Operational",
-    "lighting": "Good",
+    "elevator": "Broken",
+    "lighting": "Poor",
     "maintenance": "None"
   },
   {
-    "station": "Union Sq-14 St",
+    "station": "96 St",
     "cleanliness": "Dirty",
     "elevator": "Broken",
     "lighting": "Dim",
     "maintenance": "Scheduled"
   },
   {
-    "station": "Canal St",
-    "cleanliness": "Fair",
-    "elevator": "Out of Service",
+    "station": "86 St",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "79 St",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
     "lighting": "Dim",
     "maintenance": "Reported"
   },
   {
-    "station": "Jay St-MetroTech",
+    "station": "72 St",
     "cleanliness": "Clean",
-    "elevator": "Operational",
+    "elevator": "Out of Service",
     "lighting": "Bright",
-    "maintenance": "In Progress"
+    "maintenance": "Reported"
   },
   {
-    "station": "Broadway Junction",
-    "cleanliness": "Dirty",
-    "elevator": "Broken",
-    "lighting": "Poor",
+    "station": "66 St-Lincoln Center",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Good",
     "maintenance": "Reported"
   },
   {
     "station": "59 St-Columbus Circle",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "50 St",
     "cleanliness": "Clean",
-    "elevator": "Operational",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "42 St-Times Square",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
     "lighting": "Good",
     "maintenance": "None"
   },
   {
-    "station": "7 Av",
+    "station": "34 St-Penn Station",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "28 St",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "23 St",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "18 St",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "14 St",
     "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Christopher St-Sheridan Sq",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Houston St",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Canal St",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Franklin St",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Chambers St",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Cortlandt St",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Rector St",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "South Ferry",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "241 St-Wakefield",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Nereid Av (238 St)",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "233 St",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "225 St",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "219 St",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Gun Hill Road",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Burke Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Allerton Av",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Pelham Parkway",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Bronx Park East",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "East 180th St",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "East Tremont Av-West Farms Sq",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "174 St",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "Freeman St",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Simpson St",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Intervale Av",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Prospect Av",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Jackson Av",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "3 Av-149 St",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "149 St-Grand Concourse",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "135 St",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "116 St",
+    "cleanliness": "Clean",
     "elevator": "Out of Service",
     "lighting": "Dim",
     "maintenance": "Reported"
   },
   {
-    "station": "Lexington Av/59 St",
-    "cleanliness": "Dirty",
-    "elevator": "Broken",
-    "lighting": "Dim",
-    "maintenance": "Scheduled"
-  },
-  {
-    "station": "Flushing-Main St",
-    "cleanliness": "Fair",
-    "elevator": "Operational",
-    "lighting": "Bright",
-    "maintenance": "None"
-  },
-  {
-    "station": "Forest Hills-71 Av",
+    "station": "Central Park North-110 St",
     "cleanliness": "Clean",
-    "elevator": "Operational",
-    "lighting": "Good",
-    "maintenance": "None"
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
   },
   {
-    "station": "Coney Island-Stillwell Av",
-    "cleanliness": "Fair",
-    "elevator": "Broken",
-    "lighting": "Dim",
+    "station": "Park Place",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Poor",
     "maintenance": "Reported"
   },
   {
-    "station": "Jackson Hts-Roosevelt Av",
-    "cleanliness": "Clean",
-    "elevator": "Operational",
-    "lighting": "Bright",
-    "maintenance": "None"
-  },
-  {
-    "station": "Atlantic Av-Barclays Ctr",
-    "cleanliness": "Fair",
+    "station": "Fulton St",
+    "cleanliness": "Dirty",
     "elevator": "Broken",
-    "lighting": "Dim",
+    "lighting": "Bright",
     "maintenance": "In Progress"
   },
   {
     "station": "Wall St",
     "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Clark St-Brooklyn Hts",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Borough Hall",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Hoyt St-Fulton Mall",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Nevins St",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Atlantic Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "Bergen St",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "Grand Army Plaza",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "E. Parkway-Brooklyn Museum",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Franklin Av",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "President St",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Sterling St",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "Winthrop St",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Church Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "Beverley Road",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Newkirk Av",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Flatbush Av-Bklyn College",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "Nostrand Av",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Kingston Av",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "Utica Av",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "Sutter Av-Rutland Road",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Saratoga Av",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Rockaway Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Junius St",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Pennsylvania Av",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Van Siclen Av",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "New Lots Av",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "148 St-Lenox Terminal",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Woodlawn",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "Mosholu Parkway",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Bedford Park Boulevard",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Kingsbridge Road",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "Fordham Road",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "183 St",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Burnside Av",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "176 St",
+    "cleanliness": "Dirty",
     "elevator": "Operational",
     "lighting": "Bright",
     "maintenance": "Scheduled"
   },
   {
-    "station": "Court Sq",
+    "station": "Mount Eden Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "170 St",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "167 St",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "161 St-Yankee Stadium",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "138 St-Grand Concourse",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Bowling Green",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Dyre Av-Eastchester",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Baychester Av",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "Morris Park",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Pelham Bay Park",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Buhre Av",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "Middletown Road",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Westchester Sq-E Tremont Av",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Zerega Av",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Castle Hill Av",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Parkchester (East 177 St)",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "St. Lawrence Av",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "Morrison-Soundview Avs",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Elder Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "Whitlock Av",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Hunts Point Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Longwood Av",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "East 149 St",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "East 143 St-St Mary's St",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Cypress Av",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Brook Av",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "138 St-3 Av",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "110 St",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "77 St",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "68 St",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "59 St",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "51 St",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "42 St-Grand Central",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "33 St",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "14 St-Union Square",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "Astor Place-Cooper Union",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Bleecker St",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "Spring St",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Brooklyn Bridge-City Hall",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Main St-Flushing",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Willets Point Bl-Shea Stadium",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "111 St",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "103 St-Corona Plaza",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Junction Boulevard",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "90 St-Elmhurst",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "82 St-Jackson Hts",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "74 St-Broadway",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "69 St (Fisk Av)",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "61 St-Woodside",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "52 St (Lincoln Av)",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "46 St (Bliss St)",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "40 St (Lowery St)",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "33 St (Rawson St)",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Queensboro Plaza",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "45 Road-Courthouse Square",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "Hunter's Point Av",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Vernon-Jackson Avs",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "5 Av",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Grand Central Station",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Times Square",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "207 St-Inwood",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "190 St-Overlook Terrace",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "175 St-GWB Bus Term",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "163 St-Amsterdam Av",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "155 St",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Cathedral Parkway",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "81 St-Museum Nat'l History",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "42 St-PA Bus Term.",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Canal St-Holland Tunnel",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Broadway-Nassau St",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "High St-Brooklyn Bridge",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Jay St-Borough Hall",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Hoyt-Schermerhorn Sts",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Lafayette Av",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Clinton-Washington Avs",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "Kingston-Throop Avs",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Ralph Av",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Broadway Junction-E New York",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Liberty Av",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "Shepherd Av",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Euclid Av",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Grant Av",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "80-Hudson St",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "88 St (Boyd Av)",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Rockaway Boulevard",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "104 St (Oxford Av)",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "111 St (Greenwood Av)",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Lefferts Boulevard",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "Aqueduct Racetrack",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "21 St-Queensbridge",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Roosevelt Island",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Lexington Av",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "57 St",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "9 Av",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Fort Hamilton Parkway",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "55 St",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "62 St",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "71 St",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "18 Av",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "20 Av",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Bay Parkway",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "25 Av",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Bay 50 St",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "205 St-Norwood",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "182-183 Sts",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Tremont Av",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "174-175 Sts",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "7 Av",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "47-50 Sts (Rock Ctr)",
     "cleanliness": "Fair",
     "elevator": "Operational",
     "lighting": "Dim",
     "maintenance": "Reported"
+  },
+  {
+    "station": "42 St",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "34 St-Herald Square",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "West 4 St-Washington Sq",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "Broadway-Lafayette St",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Grand St",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "Prospect Park",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Parkside Av",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "Cortelyou Road",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "Av H",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Av J",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Av M",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Kings Highway",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Av U",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Neck Road",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Sheepshead Bay",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Brighton Beach",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Ocean Parkway",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "West 8 St-NY Aquarium",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Stillwell Av-Coney Isl.",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "World Trade Center",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "179 St-Jamaica",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "169 St",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "Parsons Boulevard",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Suthpin Boulevard",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Van Wyck Boulevard",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Union Tpke-Kew Gdns",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "75 Av (Puritan Av)",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "23 St-Ely Av",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "2 Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Delancey St",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "East Broadway",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "York St",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "Carroll St",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Smith-9 Sts",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "4 Av",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "7 Av-Park Slope",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "15 St-Prospect Park",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Ditmas Av",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Av I",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Av N",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Av P",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Av X",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Neptune Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Jamaica Center",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Sutphin Boulevard",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "Jamaica-Van Wyck",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "71-Continental Avs",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "67 Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "63 Drive-Rego Park",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Woodhaven Bl-Queens Mall",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Grand Av-Newtown",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Elmhurst Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Roosevelt Av-Jackson Heights",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "65 St",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Northern Boulevard",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "46 St",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Steinway St",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "36 St",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Queens Plaza",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Court Square",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "21 St-Van Alst",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Greenpoint Av",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Nassau Av",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Metropolitan Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "Broadway",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Flushing Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Myrtle-Willoughby Avs",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Bedford-Nostrand Avs",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Classon Av",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Aqueduct-North Conduit Av",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Howard Beach-JFK Airport",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Broad Channel",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Beach 67 St-Gaston Av",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Beach 60 St-Straiton Av",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Beach 44 St-Frank Av",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Beach 36 St-Edgemere",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Beach 25 St-Wavecrest",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "Far Rockaway-Mott Av",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "Beach 90 St-Holland",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Beach 98 St-Playland",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Beach 105 St-Seaside",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Rockaway Park-B 116 St",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "121 St",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "102-104 St",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Woodhaven Boulevard",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Forest Parkway",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Elderts Lane",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Cypress Hills",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Crescent St",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Norwood Av",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Cleveland St",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Alabama Av",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "Broadway Junction",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Chauncey St",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "Halsey St",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "Gates Av",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Kosciusko St",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "8 Av",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "6 Av",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Union Square",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "3 Av",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "1 Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Bedford Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Lorimer St",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "Graham Av",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Montrose Av",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Morgan Av",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "None"
+  },
+  {
+    "station": "Jefferson St",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "DeKalb Av",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Myrtle Av",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "Wilson Av",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Bushwick Av-Aberdeen St",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Sutter Av",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Livonia Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "East 105 St",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "Rockaway Parkway",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Metropolitan Av-Middle Vlg",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Fresh Pond Road",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Forest Av",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Seneca Av",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Wyckoff Av",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Knickerbocker Av",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Central Av",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Myrtle Av-Broadway",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Hewes St",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Marcy Av",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "None"
+  },
+  {
+    "station": "Essex St",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Bowery",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Broad St",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "New Utrecht Av",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Canal St-Broadway",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "Ditmars Blvd-Astoria",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Poor",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Astoria Blvd-Hoyt Av",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "30-Grand Av",
+    "cleanliness": "Clean",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "36-Washington Av",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "39-Beebe Av",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "49 St",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "8 St-NYU",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Prince St",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "City Hall",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Cortlandt St-WTC",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "Whitehall St-South Ferry",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Bright",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "Court St",
+    "cleanliness": "Clean",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "Lawrence St-MetroTech",
+    "cleanliness": "Fair",
+    "elevator": "Broken",
+    "lighting": "Dim",
+    "maintenance": "None"
+  },
+  {
+    "station": "Pacific St",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "Union St",
+    "cleanliness": "Fair",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "9 St",
+    "cleanliness": "Dirty",
+    "elevator": "Broken",
+    "lighting": "Good",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "25 St",
+    "cleanliness": "Clean",
+    "elevator": "Out of Service",
+    "lighting": "Bright",
+    "maintenance": "None"
+  },
+  {
+    "station": "45 St",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Bright",
+    "maintenance": "Scheduled"
+  },
+  {
+    "station": "53 St",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Poor",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Bay Ridge Av",
+    "cleanliness": "Dirty",
+    "elevator": "Out of Service",
+    "lighting": "Good",
+    "maintenance": "In Progress"
+  },
+  {
+    "station": "95 St-Bay Ridge",
+    "cleanliness": "Dirty",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "Reported"
+  },
+  {
+    "station": "Botanic Garden",
+    "cleanliness": "Fair",
+    "elevator": "Operational",
+    "lighting": "Dim",
+    "maintenance": "In Progress"
   }
 ]
