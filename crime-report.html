@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MetroSafe – Know Before You Go</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="dark-theme">
+
+  <!-- navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="MetroSafe Logo" />
+      </a>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="station.html">Station Condition</a></li>
+          <li><a href="#">News & Media</a></li>
+          <li><a href="crime-report.html">Crime Tracker</a></li>
+          <li><a href="#">Ratings & Reviews</a></li>
+          <li><a href="rat.html">Subway Rats</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+    
+    <div class="crime-report-body">
+        
+        <h2>Report a Crime</h2>
+
+<form id="crimeForm">
+  <label for="stationSelect">Select Station:</label><br>
+  <select id="stationSelect" required>
+    <option value="" disabled selected>Select a station</option>
+    <option>Times Square</option>
+    <option>Union Square</option>
+    <option>Grand Central</option>
+    <option>34th Street–Herald Square</option>
+    <option>59th Street–Columbus Circle</option>
+    <option>Fulton Street</option>
+    <option>Atlantic Av–Barclays Ctr</option>
+    <option>125th Street</option>
+    <option>Lexington Av/59th St</option>
+    <!-- Add more as needed -->
+  </select><br><br>
+
+  <label for="incidentText">Describe the incident:</label><br>
+  <textarea id="incidentText" rows="4" cols="40" placeholder="What happened?" required></textarea><br><br>
+
+  <button type="submit">Report Incident</button>
+</form>
+        
+        <h3>Live Crime Reports by Station</h3>
+<div class="chart-container">
+  <canvas id="crimeChart"></canvas>
+</div>
+        
+        <div id="incidentLog">
+  <h4>Recent Reports</h4>
+  <ul id="incidentList"></ul>
+</div>
+
+
+
+    </div>
+    
+    
+    
+    <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="img/logo.png" alt="MetroSafe Logo" />
+        <p>MetroSafe — Know Before You Go</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="station.html">Station Condition</a>
+        <a href="#">News & Media</a>
+        <a href="crime-report.html">Crime Tracker</a>
+        <a href="#">Ratings & Reviews</a>
+      </div>
+      <div class="footer-credits">
+        <p>&copy; 2025 MetroSafe. All rights reserved.</p>
+      </div>
+    </div>
+  </footer> 
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+  <script src="script.js" defer></script>
+    
+    </body>
+</html>

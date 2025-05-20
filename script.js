@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }, { threshold: 0.6 });
   lines.forEach(line => lineObserver.observe(line));
 
-  // ========== station serach ==========
+  // ========== station search ==========
   const container = document.getElementById("stationCards");
   const searchInput = document.getElementById("stationSearch");
   let stationData = [];
@@ -96,133 +96,190 @@ document.addEventListener("DOMContentLoaded", () => {
       console.error("Failed to load stations.json:", error);
     });
 
-        // ========== homepage hero station search redirect ==========
-const input = document.getElementById("stationInput");
-const datalist = document.getElementById("station-options");
-const goBtn = document.getElementById("goBtn");
+  // ========== homepage station search redirect ==========
+  const input = document.getElementById("stationInput");
+  const datalist = document.getElementById("station-options");
+  const goBtn = document.getElementById("goBtn");
 
-if (input && datalist && goBtn) {
-  let stationsList = [];
+  if (input && datalist && goBtn) {
+    let stationsList = [];
 
-  fetch("metro_incidents_clean2.json")
-    .then(res => res.json())
-    .then(data => {
-      const stations = new Set();
-      data.forEach(entry => {
-        if (entry.station && entry.station.trim()) {
-          stations.add(entry.station.trim());
-        }
-      });
-      stationsList = [...stations].sort();
-    });
-  
-  input.addEventListener("input", () => {
-    // Only add options if 2 or more characters typed
-    if (input.value.length >= 2) {
-      datalist.innerHTML = "";
-      stationsList
-        .filter(station =>
-          station.toLowerCase().includes(input.value.toLowerCase())
-        )
-        .forEach(station => {
-          const opt = document.createElement("option");
-          opt.value = station;
-          datalist.appendChild(opt);
+    fetch("metro_incidents_clean2.json")
+      .then(res => res.json())
+      .then(data => {
+        const stations = new Set();
+        data.forEach(entry => {
+          if (entry.station && entry.station.trim()) {
+            stations.add(entry.station.trim());
+          }
         });
-    } else {
-      datalist.innerHTML = "";
-    }
-  });
-  
+        stationsList = [...stations].sort();
+      });
 
-  goBtn.addEventListener("click", () => {
-    const station = input.value.trim();
-    if (station) {
-      const encoded = encodeURIComponent(station);
-      window.location.href = `info.html?station=${encoded}`;
-    }
-  });
+    input.addEventListener("input", () => {
+      if (input.value.length >= 2) {
+        datalist.innerHTML = "";
+        stationsList
+          .filter(station =>
+            station.toLowerCase().includes(input.value.toLowerCase())
+          )
+          .forEach(station => {
+            const opt = document.createElement("option");
+            opt.value = station;
+            datalist.appendChild(opt);
+          });
+      } else {
+        datalist.innerHTML = "";
+      }
+    });
 
-  input.addEventListener("keydown", e => {
-    if (e.key === "Enter") goBtn.click();
-  });
-}
-});
+    goBtn.addEventListener("click", () => {
+      const station = input.value.trim();
+      if (station) {
+        const encoded = encodeURIComponent(station);
+        window.location.href = `info.html?station=${encoded}`;
+      }
+    });
 
+    input.addEventListener("keydown", e => {
+      if (e.key === "Enter") goBtn.click();
+    });
+  }
 
-
-document.addEventListener("DOMContentLoaded", function () {
+  // ========== rat page ==========
+  const videoContainer = document.getElementById("videoContainer");
+  if (videoContainer) {
     const videos = [
-        {
-            url: "https://www.youtube.com/embed/gQc0yYHR988",
-            title: "Subway Rats",
-            description: "An up-close look at subway rats navigating the MTA system."
-        },
-        {
-            url: "https://www.youtube.com/embed/1_5MNeXUKf4",
-            title: "Rat Returns",
-            description: "Rats scamper out from under homeless man’s blanket on NYC subway platform, horrifying video shows"
-        },
-        {
-            url: "https://www.youtube.com/embed/u5k5SNy_M1k",
-            title: "Flood Rat",
-            description: "Video Of Rat Hiding From NYC Subway Flooding Goes Viral."
-        }
+      {
+        url: "https://www.youtube.com/embed/gQc0yYHR988",
+        title: "Subway Rats",
+        description: "An up-close look at subway rats navigating the MTA system."
+      },
+      {
+        url: "https://www.youtube.com/embed/1_5MNeXUKf4",
+        title: "Rat Returns",
+        description: "Rats scamper out from under homeless man’s blanket on NYC subway platform."
+      },
+      {
+        url: "https://www.youtube.com/embed/u5k5SNy_M1k",
+        title: "Flood Rat",
+        description: "Video Of Rat Hiding From NYC Subway Flooding Goes Viral."
+      }
     ];
 
-    const container = document.getElementById("videoContainer");
-
     videos.forEach(video => {
-        const wrapper = document.createElement("div");
-        wrapper.className = "right-sidebar-content";
-
-        wrapper.innerHTML = `
-            <div class="rat-videos">
-                <iframe width="100%" height="315"
-                    src="${video.url}"
-                    title="${video.title}" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
-            <div class="rat-video-detail">
-                <h5>${video.title}</h5>
-                <p>${video.description}</p>
-            </div>
-            <div class="clear-element"></div>
-        `;
-
-        container.appendChild(wrapper);
+      const wrapper = document.createElement("div");
+      wrapper.className = "right-sidebar-content";
+      wrapper.innerHTML = `
+        <div class="rat-videos">
+          <iframe width="100%" height="315"
+              src="${video.url}"
+              title="${video.title}" frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+        </div>
+        <div class="rat-video-detail">
+            <h5>${video.title}</h5>
+            <p>${video.description}</p>
+        </div>
+        <div class="clear-element"></div>
+      `;
+      videoContainer.appendChild(wrapper);
     });
-});
 
-
-document.getElementById("videoUpload").addEventListener("change", function (event) {
-    const file = event.target.files[0];
-
-    if (file && file.type.startsWith("video/")) {
-        const videoURL = URL.createObjectURL(file);
-
-        const wrapper = document.createElement("div");
-        wrapper.className = "right-sidebar-content";
-
-        wrapper.innerHTML = `
+    const upload = document.getElementById("videoUpload");
+    if (upload) {
+      upload.addEventListener("change", function (event) {
+        const file = event.target.files[0];
+        if (file && file.type.startsWith("video/")) {
+          const videoURL = URL.createObjectURL(file);
+          const wrapper = document.createElement("div");
+          wrapper.className = "right-sidebar-content";
+          wrapper.innerHTML = `
             <div class="rat-videos">
-                <video width="100%" height="315" controls>
-                    <source src="${videoURL}" type="${file.type}">
-                    Your browser does not support the video tag.
-                </video>
+              <video width="100%" height="315" controls>
+                <source src="${videoURL}" type="${file.type}">
+                Your browser does not support the video tag.
+              </video>
             </div>
             <div class="rat-video-detail">
-                <h5>Your Uploaded Video</h5>
-                <p>This video was added by a visitor.</p>
+              <h5>Your Uploaded Video</h5>
+              <p>This video was added by a visitor.</p>
             </div>
             <div class="clear-element"></div>
-        `;
-
-        document.getElementById("videoContainer").prepend(wrapper);
-    } else {
-        alert("Please upload a valid video file.");
+          `;
+          videoContainer.prepend(wrapper);
+        } else {
+          alert("Please upload a valid video file.");
+        }
+      });
     }
+  }
 
+  // ========== crime tracker ==========
+  const chartCanvas = document.getElementById('crimeChart');
+  if (chartCanvas) {
+    let stations = JSON.parse(localStorage.getItem('stations')) || ["Times Square", "Union Square", "Grand Central"];
+    let crimeCounts = JSON.parse(localStorage.getItem('crimeCounts')) || [5, 3, 2];
+    let incidentLogData = JSON.parse(localStorage.getItem('incidentLog')) || [];
+
+    const ctx = chartCanvas.getContext('2d');
+    const crimeChart = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: stations,
+        datasets: [{
+          label: 'Reported Incidents',
+          data: crimeCounts,
+          backgroundColor: 'rgba(255, 99, 132, 0.5)'
+        }]
+      },
+      options: {
+        responsive: true,
+        scales: {
+          y: { beginAtZero: true }
+        }
+      }
+    });
+
+    const log = document.getElementById('incidentList');
+    incidentLogData.forEach(entry => {
+      const li = document.createElement('li');
+      li.textContent = `${entry.station}: ${entry.incident}`;
+      log.appendChild(li);
+    });
+
+    const form = document.getElementById('crimeForm');
+    if (form) {
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+        const station = document.getElementById('stationSelect').value;
+        const incident = document.getElementById('incidentText').value.trim();
+        if (!station || !incident) return;
+
+        const index = stations.indexOf(station);
+        if (index !== -1) {
+          crimeCounts[index]++;
+        } else {
+          stations.push(station);
+          crimeCounts.push(1);
+        }
+
+        localStorage.setItem('stations', JSON.stringify(stations));
+        localStorage.setItem('crimeCounts', JSON.stringify(crimeCounts));
+
+        crimeChart.data.labels = stations;
+        crimeChart.data.datasets[0].data = crimeCounts;
+        crimeChart.update();
+
+        const li = document.createElement('li');
+        li.textContent = `${station}: ${incident}`;
+        log.prepend(li);
+        incidentLogData.unshift({ station, incident });
+        localStorage.setItem('incidentLog', JSON.stringify(incidentLogData));
+
+        form.reset();
+      });
+    }
+  }
 });
-
