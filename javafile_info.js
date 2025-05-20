@@ -115,6 +115,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
 function populatePage(filtered, stationName, datasetMaxDate) {
 
+      // Update the page headings with the station name
+  document.getElementById("stationTitle").textContent = `${stationName} Station Safety`;
+  document.getElementById("safetyTipsHeading").textContent = `Safety Tips for ${stationName} Station`;
   // 1) compute the station’s own latest incident date
   const latest = new Date(
     Math.max(...filtered.map(i => new Date(i.date)))
