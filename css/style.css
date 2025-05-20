@@ -493,3 +493,194 @@ aside.right-sidebar .right-sidebar-heading{
 .rat-stats-card b{
     color: #1a1a1a;
 }
+
+
+/* ========== serach bar ========== */
+.station-search-container {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.station-search-container input[type="search"] {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  width: 260px;
+  max-width: 90%;
+}
+
+.station-search-container .btn {
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  background-color: #2ecc71;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* ========== info page ========== */
+body {
+  transition: background 0.3s ease, color 0.3s ease;
+}
+body.dark-theme {
+  background: #121212;
+  color: #EEEEEE;
+  
+}
+body.light-theme {
+  background: #F5F5F5;
+  color: #222222;
+}
+
+/* toggle switch */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.toggle-switch {
+  position: relative; width: 40px; height: 20px;
+}
+.toggle-switch input {
+  opacity: 0; width: 0; height: 0;
+}
+.slider {
+  position: absolute; top: 0; left: 0; right: 0; bottom: 0;
+  background: #ccc; border-radius: 20px;
+  transition: background 0.3s ease;
+}
+.slider::before {
+  content: "";
+  position: absolute; width: 16px; height: 16px;
+  left: 2px; bottom: 2px;
+  background: white; border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+input:checked + .slider {
+  background: #4caf50;
+}
+input:checked + .slider::before {
+  transform: translateX(20px);
+}
+
+/* revaveal on scroll */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* danger meeter & Pulse */
+.danger-meter-container {
+  margin: 1rem 0;
+}
+.danger-meter-bar {
+  position: relative; width: 100%; height: 1.5rem;
+  background: #444; border-radius: 8px; overflow: hidden;
+}
+.danger-meter-fill {
+  position: absolute; top: 0; left: 0;
+  width: 0; height: 100%;
+  background: #2ecc71;
+  transition: width 0.5s ease, background 0.3s ease;
+  animation: pulse 2s ease-in-out infinite alternate;
+}
+@keyframes pulse {
+  to { opacity: 0.7; }
+}
+.danger-meter-label {
+  position: absolute; inset: 0;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: bold; pointer-events: none;
+}
+
+/* stat crds & count-Up Hover */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1rem; margin-bottom: 2rem;
+}
+.stat-card {
+  background: var(--card-bg,#1e1e1e);
+  padding: 1rem; border-radius: 8px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.stat-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
+.stat-number { font-size: 1.5rem; margin: 0 0 0.5rem; }
+.stat-label  { font-size: 0.9rem; color: #bbb; }
+.breakdown-list {
+  list-style: none; padding: 0; margin: 0.5rem 0 0;
+}
+.breakdown-list li { font-size: 0.9rem; margin: 3px 0; }
+
+/* filter Labels Hover Underline */
+.filter-controls label {
+  position: relative; cursor: pointer;
+  font-size: 0.9rem; margin-right: 1rem;
+}
+.filter-controls label::after {
+  content: ""; position: absolute;
+  bottom: -2px; left: 0; height: 2px; width: 0;
+  background: currentColor;
+  transition: width 0.3s ease;
+}
+.filter-controls label:hover::after {
+  width: 100%;
+}
+
+/* incident Cards */
+.incident-card {
+  background: var(--card-bg,#1e1e1e);
+  padding: 1rem; border-radius: 6px; margin-bottom: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.incident-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.3);
+}
+
+/* safety Tips */
+.tips-section ul {
+  list-style: disc inside; padding-left: 1rem;
+}
+
+body.light-theme {
+  --card-bg: #ffffff;
+}
+
+@media (max-width:600px) {
+  header h1 { font-size:1.25rem; }
+  .stats-grid { grid-template-columns:1fr; }
+}
+
+body.station-page {
+  padding-top: 64px; 
+}
+
+
+body.station-page .station-header-inner {
+  display: flex;
+  flex-direction: column;   
+  align-items: flex-start; 
+  gap: 1rem;                
+}
+
+/* Remove any leftover centering on the search box */
+body.station-page .station-search-container {
+  margin: 0;
+}
