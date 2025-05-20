@@ -104,7 +104,7 @@ const goBtn = document.getElementById("goBtn");
 if (input && datalist && goBtn) {
   let stationsList = [];
 
-  fetch("station_crime_data.json")
+  fetch("metro_incidents_clean2.json")
     .then(res => res.json())
     .then(data => {
       const stations = new Set();
