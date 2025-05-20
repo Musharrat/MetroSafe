@@ -495,6 +495,40 @@ aside.right-sidebar .right-sidebar-heading{
 }
 
 
+@media (max-width: 768px){
+    .rat-cover h2{
+        font-size: 32px;
+    }
+    .rat-cover{
+        height: 300px;
+        padding-top: 30%;
+        padding-left: 0;
+    }
+    .about-rats h3{
+        font-size: 32px;
+    }
+    .about-rats p{
+        font-size: 16px;
+    }
+    .rat-body{
+        float: none;
+        width: 100%;
+    }
+    aside.right-sidebar{
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px){
+    .rat-stats-card{
+        float: none;
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+
 /* ========== serach bar ========== */
 .station-search-container {
   margin-top: 1.5rem;
@@ -683,4 +717,23 @@ body.station-page .station-header-inner {
 /* Remove any leftover centering on the search box */
 body.station-page .station-search-container {
   margin: 0;
+}
+
+
+
+/* ***************** crime tracker ****************** */
+
+.crime-report-body{
+    margin-top: 60px;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 1000px; 
+  margin: 0 auto;
+}
+
+#crimeChart {
+  width: 100% !important;
+  height: 400px !important; 
 }
