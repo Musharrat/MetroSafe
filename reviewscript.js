@@ -70,7 +70,7 @@ function submitReview()
   const name = nameInput.value.trim() || "Anonymous";
   const text = reviewInput.value.trim();
 
-  if (!text || currentRating === 0) 
+  if (!text) 
   {
     alert("Please enter a review and select a star rating.");
     return;
