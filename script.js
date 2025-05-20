@@ -95,6 +95,58 @@ document.addEventListener("DOMContentLoaded", () => {
     .catch((error) => {
       console.error("Failed to load stations.json:", error);
     });
+
+        // ========== homepage hero station search redirect ==========
+const input = document.getElementById("stationInput");
+const datalist = document.getElementById("station-options");
+const goBtn = document.getElementById("goBtn");
+
+if (input && datalist && goBtn) {
+  let stationsList = [];
+
+  fetch("station_crime_data.json")
+    .then(res => res.json())
+    .then(data => {
+      const stations = new Set();
+      data.forEach(entry => {
+        if (entry.station && entry.station.trim()) {
+          stations.add(entry.station.trim());
+        }
+      });
+      stationsList = [...stations].sort();
+    });
+  
+  input.addEventListener("input", () => {
+    // Only add options if 2 or more characters typed
+    if (input.value.length >= 2) {
+      datalist.innerHTML = "";
+      stationsList
+        .filter(station =>
+          station.toLowerCase().includes(input.value.toLowerCase())
+        )
+        .forEach(station => {
+          const opt = document.createElement("option");
+          opt.value = station;
+          datalist.appendChild(opt);
+        });
+    } else {
+      datalist.innerHTML = "";
+    }
+  });
+  
+
+  goBtn.addEventListener("click", () => {
+    const station = input.value.trim();
+    if (station) {
+      const encoded = encodeURIComponent(station);
+      window.location.href = `Info.html?station=${encoded}`;
+    }
+  });
+
+  input.addEventListener("keydown", e => {
+    if (e.key === "Enter") goBtn.click();
+  });
+}
 });
 
 
@@ -171,5 +223,6 @@ document.getElementById("videoUpload").addEventListener("change", function (even
     } else {
         alert("Please upload a valid video file.");
     }
+
 });
 
