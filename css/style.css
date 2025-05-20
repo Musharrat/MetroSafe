@@ -376,7 +376,7 @@ body {
     height: 400px;
     padding-top: 10%;
     padding-left: 50px;
-    //margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .rat-cover h2{
@@ -422,7 +422,7 @@ aside.right-sidebar{
 
 aside.right-sidebar .right-sidebar-heading{ 
     font-size: 26px;
-    //margin-bottom: 10px;
+    margin-bottom: 10px;
     text-transform: uppercase;
     color: #DB101D;
 }
@@ -473,7 +473,7 @@ aside.right-sidebar .right-sidebar-heading{
 }
 
 .rat-stats-card:nth-child(even){
-    //margin-right: 0;
+    margin-right: 0;
 }
 
 .rat-stats-card:hover{
