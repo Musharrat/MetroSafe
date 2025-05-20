@@ -29,7 +29,7 @@
       </button>
     </div>
   </header>
-
+  
   <!-- hero section but now includes a vidoe of a train passing by  -->
   <section class="hero" id="hero">
     <video autoplay muted loop playsinline id="heroVideo">
@@ -40,9 +40,16 @@
     <div class="hero-content container">
       <h1>Know Before You Go</h1>
       <p>Stay informed about NYC subway station safety.</p>
-      <a href="#story" class="btn">Read Michelle’s Story</a>
+  
+      <!-- 🚇 Station Search Bar -->
+    <div class="station-search-container">
+        <input type="search" id="stationInput" placeholder="Search station..." list="station-options" />
+        <button id="goBtn" class="btn">Go</button>
+        <datalist id="station-options"></datalist>
+      </div>
     </div>
   </section>
+  
 
   <!-- story section about michelle -->
   <section class="story-section container" id="story">
@@ -84,25 +91,37 @@
       <h2>Before you step</h2>
     </div>
     <div class="reveal-line">
-      <h2>foot into an NYC</h2>
+      <h2>foot into an</h2>
     </div>
     <div class="reveal-line">
-      <h2>subway station,</h2>
+      <h2>NYC subway station,</h2>
     </div>
     <div class="reveal-line">
       <h2>make sure you know</h2>
     </div>
     <div class="reveal-line">
-      <h2>what you're walking into.</h2>
+      <h2>what you're</h2>
     </div>
     <div class="reveal-line">
-      <h2>This is why we created <span class="brand">MetroSafe</span></h2>
+      <h2>walking into.</h2>
     </div>
     <div class="reveal-line">
-      <h2>To give everyone the knowledge they need</h2>
+      <h2>This is why we created </h2>
     </div>
     <div class="reveal-line">
-      <h2>to stay safe and aware.</h2>
+      <h2><span class="brand">MetroSafe</span></h2>
+    </div>
+    <div class="reveal-line">
+      <h2>To give everyone the</h2>
+    </div>
+    <div class="reveal-line">
+      <h2>knowledge they need</h2>
+    </div>
+    <div class="reveal-line">
+      <h2>to stay safe</h2>
+    </div>
+    <div class="reveal-line">
+      <h2>and aware.</h2>
     </div>
   </section>
   
