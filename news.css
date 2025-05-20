@@ -12,6 +12,7 @@ body
     padding: 20px 0;
     text-align: center;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: 50px;
     margin-bottom: 20px;
 }
   
@@ -77,6 +78,33 @@ body
     font-size: 0.9rem;
     color: #555;
 }
+
+.navbar {
+    position: fixed; top: 0; left: 0; right: 0;
+    background: rgba(8,10,7,0.85);
+    z-index: 100;
+  }
+  .nav-container { display: flex; align-items: center; justify-content: space-between; height: 60px; }
+  .logo img { height: 40px; }
+  .nav-links ul {
+    display: flex; gap: 1.5rem; list-style: none;
+  }
+  .nav-links a {
+    color: #fff; text-decoration: none; font-weight: 600;
+    padding: 0.5rem;
+    transition: color 0.2s;
+  }
+  .nav-links a:hover,
+  .nav-links a.active { color: #4caf50; }
+  .hamburger {
+    display: none; flex-direction: column; gap: 5px;
+    background: none; border: none; cursor: pointer;
+  }
+  .hamburger span {
+    width: 25px; height: 3px; background: #fff;
+    display: block; transition: transform 0.3s;
+  }
+  
 
 @media (max-width: 600px) 
 {
