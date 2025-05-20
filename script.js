@@ -139,7 +139,7 @@ if (input && datalist && goBtn) {
     const station = input.value.trim();
     if (station) {
       const encoded = encodeURIComponent(station);
-      window.location.href = `Info.html?station=${encoded}`;
+      window.location.href = `info.html?station=${encoded}`;
     }
   });
 
