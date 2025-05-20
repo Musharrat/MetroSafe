@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MetroSafe - Station Safety</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body class="dark-theme station-page">
+  <!-- navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <img src="img/logo.png" alt="MetroSafe Logo" />
+      </a>
+      <nav class="nav-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="station.html" class="active">Station Condition</a></li>
+          <li><a href="#">News & Media</a></li>
+          <li><a href="#">Crime Tracker</a></li>
+          <li><a href="#">Ratings & Reviews</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="station-header">
+    <div class="container station-header-inner">
+      <!-- 1) Search first -->
+      <div class="station-search-container">
+        <input
+          type="search"
+          id="stationInput"
+          placeholder="Search station..."
+          list="station-options"
+        />
+        <button id="goBtn" class="btn">Go</button>
+        <datalist id="station-options"></datalist>
+      </div>
+  
+      <!-- 2) Then title + toggle -->
+      <div class="header-top">
+        <h1 id="stationTitle">Station Safety</h1>
+        <label class="toggle-switch">
+          <input type="checkbox" id="themeToggle" />
+          <span class="slider"></span>
+        </label>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Danger Level Meter Section -->
+  <section class="overview-section container reveal">
+    <div class="danger-meter-container">
+      <div class="danger-meter-bar">
+        <div id="dangerMeterFill" class="danger-meter-fill"></div>
+        <div class="danger-meter-label">
+          Danger Level: <strong id="dangerLevelValue">--</strong>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats Section -->
+  <section class="stats-section container reveal">
+    <div class="stats-grid">
+      <div class="stat-card">
+        <p class="stat-number" id="total-crimes">0</p>
+        <p class="stat-label">Incidents this month</p>
+      </div>
+      <div class="stat-card">
+        <p class="stat-number trend-up" id="crime-trend">--</p>
+        <p class="stat-label">Trend vs last month</p>
+      </div>
+      <div class="stat-card">
+        <p class="stat-number">Breakdown</p>
+        <ul id="crime-breakdown" class="breakdown-list"></ul>
+      </div>
+      <div class="stat-card">
+        <p class="stat-number" id="avg-incidents">0</p>
+        <p class="stat-label">Avg. Incidents/Day</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Recent Incidents with Filter Controls -->
+  <section class="incidents-section container reveal">
+    <h2>Recent Incidents</h2>
+    <div class="filter-controls">
+      <label><input type="checkbox" class="filter-checkbox" value="Theft" checked /> Theft</label>
+      <label><input type="checkbox" class="filter-checkbox" value="Assault" checked /> Assault</label>
+      <label><input type="checkbox" class="filter-checkbox" value="Drugs" checked /> Drugs</label>
+      <label><input type="checkbox" class="filter-checkbox" value="Other" checked /> Other</label>
+    </div>
+    <div id="incidents-container"></div>
+  </section>
+
+  <!-- Safety Tips -->
+  <section class="tips-section container reveal">
+    <h2 id="safetyTipsHeading">Stay Safe and Have a Wonderful Trip!</h2>
+    <ul id="tips-list"></ul>
+  </section>
+
+  <!-- footer -->
+  <footer class="footer">
+    <div class="footer-container container">
+      <div class="footer-brand">
+        <img src="img/logo.png" alt="MetroSafe Logo" />
+        <p>MetroSafe — Know Before You Go</p>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="station.html">Station Condition</a>
+        <a href="#">News & Media</a>
+        <a href="#">Crime Tracker</a>
+        <a href="#">Ratings & Reviews</a>
+      </div>
+      <div class="footer-credits">
+        <p>&copy; 2025 MetroSafe. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+  <script src="javafile_info.js" defer></script>
+</body>
+</html>
